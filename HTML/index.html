@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="../CSS/main.css">
+	<link rel="stylesheet" href="../CSS/menuicon.css">
+	
+	<meta charset="utf-8">
+	<title>My Portfolio | @sajadb_cg</title>
+	<script src="../JavaScripts/main.js"></script>
+	<script src="https://kit.fontawesome.com/025870f38e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="navicon" onClick="navbarOpen(this)">
+			<div class="navicon_bar">
+				
+			</div>
+		</div>
+		<div class="navbar" id="navbarid">
+			<div class="navbarlist">
+				<ul>
+				  <li class="homeMenuItem active" onClick="activeFunc(this)"><a href="#home" ><i class="fa fa-fw fa-home"></i>Home</a></li>
+				  <li class="skillMenuItem" onClick="activeFunc(this)"><a href="#skills"><i class="fa fa-fw fa-tools"></i>Skills</a></li>
+					<li class="aboutmeMenuItem" onClick="activeFunc(this)"><a href="#aboutme"><i class="fa fa-fw fa-address-card"></i>About Me</a></li>
+					<li class="contacsMenuItem" onClick="activeFunc(this)"><a href="#contacts"><i class="fa fa-fw fa-envelope-open"></i>Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	<div class="container">
+		<div class="home_content" id="home">
+			<div class="keyart" id="parallax">
+				<div class="keyart_layer parallax" id="keyart-0" data-speed="60" style="transform: translate3d(0px, 0px, 0px)"></div>
+				<div class="keyart_layer parallax" id="keyart-1" data-speed="50" style="transform: translate3d(0px, 0px, 0px)"></div>
+				<div class="keyart_layer parallax" id="keyart-2" data-speed="100" style="transform: translate3d(0px, 0px, 0px)"></div>
+			</div>
+		</div>
+	</div>
+	<div class="MainHeader">
+		<h2>Welcome</h2>
+		<p>to</p>
+		<h1>Sajad Baghdadi</h1>
+		<p>Portfolio Website</p>
+		<p style=" font-size: 30px">web designer</p>
+	</div>
+	<div class="skills_content parallax" id="skills">
+		<div class="skillsheader">My Skills</div>
+		<div class="skillCards">
+			<div class="skillslogo html" onMouseover="skillsInfo(this)">
+				<i class="fab fa-html5"></i>
+			</div>
+			<div class="skillslogo css" onMouseover="skillsInfo(this)">
+				<i class="fab fa-css3-alt"></i>
+			</div>
+			<div class="skillslogo php" onMouseover="skillsInfo(this)">
+				<i class="fab fa-php"></i>
+			</div>
+			<div class="skillslogo javascript" onMouseover="skillsInfo(this)">
+				<i class="fab fa-js-square"></i>
+			</div>
+			<div class="skillslogo photoshop" onMouseover="skillsInfo(this)">
+				<svg class="ps" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="60px" xml:space="preserve" viewBox="-1 -0.5 19 19">
+					<g>
+						<g>
+							<path d="M5.925,4.982c-0.442,0-0.742,0.043-0.898,0.087v2.841C5.213,7.952,5.44,7.966,5.754,7.966
+														c1.157,0,1.871-0.585,1.871-1.571C7.624,5.511,7.01,4.982,5.925,4.982z"/>
+							<path d="M16.4,0.002H1.07C0.479,0.002,0,0.48,0,1.069v15.329c0,0.59,0.479,1.069,1.07,1.069H16.4
+														c0.59,0,1.069-0.479,1.069-1.069V1.07C17.469,0.48,16.99,0.002,16.4,0.002z M8.894,8.624c-0.741,0.7-1.842,1.014-3.125,1.014
+														c-0.287,0-0.543-0.014-0.743-0.043v3.442H2.869V3.541C3.54,3.428,4.482,3.342,5.811,3.342c1.341,0,2.299,0.256,2.94,0.771
+														c0.617,0.486,1.03,1.286,1.03,2.228S9.466,8.08,8.894,8.624z M12.145,13.179c-0.916,0-1.729-0.198-2.258-0.485l0.385-1.556
+														c0.4,0.241,1.229,0.527,1.873,0.527c0.655,0,0.927-0.228,0.927-0.586c0-0.356-0.214-0.527-1.027-0.799
+														c-1.442-0.485-2-1.271-1.986-2.099c0-1.298,1.114-2.286,2.842-2.286c0.814,0,1.542,0.187,1.97,0.4l-0.385,1.5
+														c-0.314-0.172-0.913-0.399-1.514-0.399c-0.527,0-0.826,0.214-0.826,0.571c0,0.328,0.269,0.499,1.126,0.8
+														c1.328,0.456,1.886,1.128,1.899,2.154C15.171,12.222,14.141,13.179,12.145,13.179z"/>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div class="skillslogo illustrator" onMouseover="skillsInfo(this)">
+				<svg class="il" version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="60px"
+	 viewBox="-1 -0.5 18 18" xml:space="preserve">
+					<g>
+						<g>
+							<path d="M6.847,5.772H6.822c-0.127,0.511-0.254,1.16-0.395,1.657L5.917,9.25h1.898L7.28,7.429
+								C7.128,6.919,6.975,6.283,6.847,5.772z"/>
+							<path d="M15.837,0H1.033C0.462,0,0,0.462,0,1.033v14.805c0,0.57,0.462,1.033,1.033,1.033h14.805
+								c0.57,0,1.033-0.463,1.033-1.033V1.033C16.871,0.463,16.408,0,15.837,0z M8.758,12.905l-0.663-2.203H5.638l-0.612,2.203H3.014
+								l2.624-8.583h2.546l2.663,8.583H8.758z M13.793,12.905h-1.937V6.678h1.937V12.905z M12.813,5.914
+								c-0.611,0-1.019-0.434-1.007-0.969c-0.012-0.561,0.396-0.979,1.021-0.979c0.623,0,1.018,0.419,1.03,0.979
+								C13.857,5.48,13.45,5.914,12.813,5.914z"/>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div class="skillslogo cplusplus" onMouseover="skillsInfo(this)">
+				<svg class="cpp" version="1.1" id="Capa_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65px" height="65px" viewBox="0 0 548.291 548.291"
+	 xml:space="preserve">
+					<g>
+						<path d="M403.029,255.368c-6.866,0-11.522,0.683-13.964,1.344v44.053c2.894,0.656,6.42,0.893,11.297,0.893
+							c17.953,0,29.019-9.076,29.019-24.367C429.38,263.555,419.859,255.368,403.029,255.368z"/>
+						<path d="M274.297,255.368c-6.861,0-11.519,0.683-13.96,1.344v44.053c2.892,0.656,6.436,0.893,11.31,0.893
+							c17.953,0,29.009-9.076,29.009-24.367C300.645,263.555,291.138,255.368,274.297,255.368z"/>
+						<path d="M486.201,196.116h-13.166V132.59c0-0.399-0.062-0.795-0.115-1.2c-0.021-2.522-0.825-5-2.552-6.96L364.657,3.677
+							c-0.033-0.034-0.064-0.044-0.085-0.075c-0.63-0.704-1.364-1.292-2.143-1.796c-0.229-0.157-0.461-0.286-0.702-0.419
+							c-0.672-0.365-1.387-0.672-2.121-0.893c-0.2-0.052-0.379-0.134-0.577-0.188C358.23,0.118,357.401,0,356.562,0H96.757
+							C84.894,0,75.256,9.649,75.256,21.502v174.613H62.092c-16.971,0-30.732,13.756-30.732,30.73v159.81
+							c0,16.966,13.761,30.736,30.732,30.736h13.164V526.79c0,11.854,9.638,21.501,21.501,21.501h354.776
+							c11.853,0,21.501-9.647,21.501-21.501V417.392h13.166c16.966,0,30.729-13.764,30.729-30.731V226.854
+							C516.93,209.872,503.167,196.116,486.201,196.116z M96.757,21.502h249.054v110.006c0,5.94,4.817,10.751,10.751,10.751h94.972
+							v53.861H96.757V21.502z M334.115,276.409c0,14.629-4.888,27.028-13.743,35.442c-11.518,10.862-28.562,15.734-48.504,15.734
+							c-4.431,0-8.413-0.21-11.53-0.662v53.375h-33.441V233.011c10.417-1.772,25.034-3.104,45.628-3.104
+							c20.819,0,35.668,3.976,45.633,11.971C327.69,249.386,334.115,261.794,334.115,276.409z M88.19,307.878
+							c0-50.956,36.336-79.3,81.519-79.3c17.501,0,30.791,3.546,36.761,6.633l-6.864,26.803c-6.847-2.887-16.373-5.521-28.339-5.521
+							c-26.809,0-47.628,16.147-47.628,49.38c0,29.901,17.736,48.721,47.859,48.721c10.176,0,21.48-2.204,28.108-4.866l5.105,26.356
+							c-6.202,3.108-20.163,6.42-38.337,6.42C114.792,382.503,88.19,350.41,88.19,307.878z M451.534,520.962H96.757v-103.57h354.776
+							V520.962z M449.109,311.851c-11.518,10.862-28.574,15.734-48.506,15.734c-4.436,0-8.414-0.21-11.527-0.662v53.375h-33.443V233.011
+							c10.419-1.772,25.023-3.104,45.639-3.104c20.804,0,35.658,3.976,45.611,11.971c9.533,7.514,15.959,19.927,15.959,34.541
+							C462.841,291.038,457.969,303.437,449.109,311.851z"/>
+					</g>
+				</svg>
+			</div>
+			<div class="skillslogo csharp" onMouseover="skillsInfo(this)">
+				<svg class="cs" version="1.1" id="Capa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65px" height="65px"
+	 viewBox="0 0 320 320" xml:space="preserve">
+					<g>
+						<path d="M302.553,0H10C4.477,0,0,4.478,0,10v292.553c0,5.522,4.477,10,10,10h292.553c5.523,0,10-4.478,10-10V10
+							C312.553,4.478,308.076,0,302.553,0z M148.087,193.287c-9.481,8.296-21.592,12.866-34.102,12.866
+							c-28.109,0-50.977-22.4-50.977-49.934c0-27.471,22.868-49.819,50.977-49.819c12.527,0,24.597,4.53,33.987,12.756
+							c3.873,3.393,4.262,9.283,0.868,13.156c-3.392,3.874-9.283,4.265-13.156,0.869c-5.987-5.245-13.694-8.135-21.699-8.135
+							c-17.827,0-32.33,13.984-32.33,31.173c0,17.251,14.503,31.286,32.33,31.286c7.991,0,15.741-2.931,21.822-8.252
+							c3.875-3.391,9.765-2.998,13.157,0.877C152.355,184.006,151.962,189.896,148.087,193.287z M240.22,162.286
+							c5.15,0,9.324,4.174,9.324,9.323s-4.174,9.323-9.324,9.323h-10.869l-3.378,14.904c-0.981,4.328-4.826,7.265-9.085,7.265
+							c-0.683,0-1.376-0.075-2.069-0.232c-5.022-1.139-8.17-6.132-7.032-11.153l2.444-10.783h-20.201l-3.378,14.904
+							c-0.981,4.328-4.826,7.265-9.084,7.265c-0.683,0-1.376-0.075-2.069-0.232c-5.022-1.139-8.17-6.132-7.032-11.153l2.448-10.799
+							c-5.007-0.162-9.019-4.262-9.019-9.308c0-5.149,4.174-9.323,9.324-9.323h3.917l2.725-12.02h-6.642
+							c-5.149,0-9.324-4.174-9.324-9.322c0-5.15,4.174-9.324,9.324-9.324h10.869l3.378-14.904c1.138-5.021,6.134-8.17,11.154-7.032
+							c5.022,1.139,8.17,6.132,7.032,11.153l-2.444,10.783h20.201l3.378-14.904c1.138-5.021,6.133-8.17,11.154-7.032
+							c5.022,1.139,8.17,6.132,7.032,11.153l-2.448,10.799c5.007,0.162,9.019,4.262,9.019,9.309c0,5.148-4.174,9.322-9.324,9.322h-3.917
+							l-2.725,12.02H240.22z"/>
+						<polygon points="194.258,162.286 214.458,162.286 217.183,150.267 196.982,150.267"/>
+					</g>
+				</svg>
+			</div>
+		</div>
+		<div class="triangle"></div>
+		<div class="skillinfo">
+			<h1 id="skillinfoheader" style="margin-bottom: 40px; color: lightcyan; font-size: 4.4em; font-weight: 600; text-transform: uppercase; display: inline-block;" onMouseOver="skillInfo(this)">HTML 5</h1>
+			<p id="skillinfodescription" style="margin-left: 50px; margin-right: 50px; color: lightcyan; font-size: 1.2em; font-weight: 100; word-wrap: normal;">
+				Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript, ASP and PHP.Web browsers receive HTML documents from a local or web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+			</p>
+		</div>
+	</div>
+	<div class="aboutme_content parallax" id="aboutme">
+		<div class="aboutmeheader">About Me</div>
+			<p id="aboutmedescription">
+				Hi, My name is Sajad Baghdadi and i am a passionate Computer Programer. I started learning my first programing language cplusplus when i was 16 and went through with my passion by choosing computer programing as my major at Applied Science and Technology university and there i learned HTML, CSS, C# and C++ more thoroughly.
+				<br><br>
+				I am currently looking for a job in website designing industry to start a career in computer programing and i am looking forward to the future of working with you.
+			</p>
+	</div>
+	<div class="contacts_content parallax" id="contacts">
+		<div class="contactsheader">Contacts</div>
+		<div class="contactsinfo">
+			<div class="contact_container">
+			  <form id="contact_form" method="post" action="../PHP/action_page.php">
+
+				<label for="fname">Full Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name here..">
+
+				<label for="email">E-Mail</label>
+				<input type="text" id="email" name="email" placeholder="Your E-mail here..">
+
+				<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write your message here.." style="height:100px"></textarea>
+
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="socialmedia">
+				<h1 style=" color: white;">If you liked my work you can also reach me <br> on my social media accounts</h1>
+				<div class="socialmedialogos_row1">
+				<a href="http://www.instagram.com/sajadb_cg" class="instagram"><i class="fab fa-instagram"></i>Instagram</a>
+				<a href="https://twitter.com/sajadb_cg" class="twitter"><i class="fab fa-twitter"></i>Twitter</a>
+				<a href="https://www.linkedin.com/in/sajad-b-504225152" class="linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer_content parallax">
+		<p style="margin-right: 10px;">Website Created by Sajad B.</p>
+		<p style="margin-right: 10px;">|</p>
+		<p style="margin-right: 10px;">© Copyright 2020</p>
+		<p style="margin-right: 10px;">|</p>
+		<p>All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
