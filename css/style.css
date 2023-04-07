@@ -389,12 +389,6 @@ main
     gap: 1rem;
 }
 
-.contacts_content
-{
-	width: 99vw;
-	height: 600px;
-}
-
 .contactsinfo
 {
     display: flex;
@@ -433,7 +427,7 @@ input[type=submit]:hover
 
 .contact_container 
 {
-	max-width: 35vw;
+	max-width: 25vw;
 	border-radius: 5px;
 	background-color: var(--form-background-color);
 	padding: 20px;
@@ -442,7 +436,7 @@ input[type=submit]:hover
 .socialmedia
 {
     width: 25vw;
-    margin-left: 10vw;
+    margin-left: 15vw;
 	padding-top: 2.5rem;
 }
 
