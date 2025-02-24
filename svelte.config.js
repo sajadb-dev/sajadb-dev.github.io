@@ -4,7 +4,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 /** @type {import('@sveltejs/kit').Config} */
 
 const dev = process.env.NODE_ENV === 'development';
-const base = dev ? '' : `/${process.env.BASE_PATH || 'sajadb-dev.github.io'}`; // Set the correct repo name
+const base = dev ? '' : '';
 
 const config = {
 	// Consult https://svelte.dev/docs/kit/integrations
