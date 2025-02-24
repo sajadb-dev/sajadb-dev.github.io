@@ -28,7 +28,7 @@ jobs:
 
       - name: Build project
         env:
-          BASE_PATH: "${{ github.event.repository.name }}" # Adjust if needed
+          BASE_PATH: ${{ github.event.repository.name }} # Adjust if needed
         run: npm run build
 
       - name: Upload Artifacts
