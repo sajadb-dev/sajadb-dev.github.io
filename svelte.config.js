@@ -21,8 +21,11 @@ const config = {
 			base
 		},
 		prerender: {
-			entries: ['*'] // Prerender all pages
-		  }
+			entries: ['*']
+		 },
+		router: {
+			hash: true 
+		}
 	}
 };
 
