@@ -5,6 +5,7 @@
     import DevLogo from "$lib/assets/DevLogo.svelte";
     import Gamepad from "$lib/assets/Gamepad.svelte";
     import Storefront from "$lib/assets/Storefront.svelte";
+  import { base } from "$app/paths";
 
     let y = $state(0);
 	let mouse = $state();
@@ -103,19 +104,19 @@
                 <DevLogo classnames="w-full h-28"/>
                 <h1 class="text-5xl font-bold font-nunito mx-auto">Blog</h1>
                 <p class="mx-auto mt-8 mb-12">Check out the latest blog posts</p>
-                <a href="/blog" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-slate-500 hover:to-sky-500 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Blogs</a>
+                <a href="{base}/blog" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-slate-500 hover:to-sky-500 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Blogs</a>
             </li>
             <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300 drop-shadow-lg font-paper backdrop-blur-lg dark:backdrop-blur-sm">
                 <Gamepad classnames="w-full h-28"/>
                 <h1 class="text-5xl font-bold font-nunito mx-auto">Games</h1>
                 <p class="mx-auto mt-8 mb-12">Check Out All My Games</p>
-                <a href="/games" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Games</a>
+                <a href="{base}/games" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Games</a>
             </li>
             <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300  drop-shadow-lg font-paper backdrop-blur-lg dark:backdrop-blur-sm">
                 <Storefront classnames="w-full h-28"/>
                 <h1 class="text-5xl font-bold font-nunito mx-auto">Shop</h1>
                 <p class="mx-auto mt-8 mb-12">Check out the Shop</p>
-                <a href="/shop" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-teal-500 hover:to-lime-400 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Shop</a>
+                <a href="{base}/shop" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-teal-500 hover:to-lime-400 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Shop</a>
             </li>
         </ul>
     </div>

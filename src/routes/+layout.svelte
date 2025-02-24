@@ -7,6 +7,7 @@
 	import MenuList from '$lib/assets/MenuList.svelte';
 	import CloseIcon from '$lib/assets/CloseIcon.svelte';
 	import { page } from '$app/state';
+  	import { base } from '$app/paths';
 
 	let { children } = $props();
 	let menuicon = $state();
@@ -32,13 +33,13 @@
 <nav class="h-14 w-9/12 fixed container px-2 lg:px-4 mt-6 center rounded-lg border border-slate-300 drop-shadow-md backdrop-blur-2xl z-30 hidden md:inline">
 	<div class="mx-12 h-full flex flex-row justify-between">
 		<ul class="h-full my-auto flex flex-row gap-[5vw] lg:gap-[6vw] font-base text-lg">
-			<li class="w-6 h-full"><a href="/" class="w-full h-full flex"><SbLogo classnames="my-auto fill-black dark:fill-white"/></a></li>
-			<Navelement path="/blog" text="Blog"/>
-			<Navelement path="/games" text="Games"/>
-			<Navelement path="/shop" text="Shop"/>
+			<li class="w-6 h-full"><a href="{base}/" class="w-full h-full flex"><SbLogo classnames="my-auto fill-black dark:fill-white"/></a></li>
+			<Navelement path="{base}/blog" text="Blog"/>
+			<Navelement path="{base}/games" text="Games"/>
+			<Navelement path="{base}/shop" text="Shop"/>
 		</ul>
 		<ul class="my-auto flex flex-row justify-center text-center items-center gap-[3vw] font-base text-md">
-			<li class=" bg-rose-500 px-2 rounded-md hover:bg-opacity-85 text-white"><a href="/donate">Donate</a></li>
+			<li class=" bg-rose-500 px-2 rounded-md hover:bg-opacity-85 text-white"><a href="{base}/donate">Donate</a></li>
 			<li class="w-4 h-4"><a class="" href="https://www.instagram.com/sajadb.dev/"><Instagram classnames="fill-black dark:fill-white hover:fill-red-500"/></a></li>
 			<li class="w-4 h-4"><a class="" href="https://x.com/sajadb_dev"><XLogo classnames="fill-black dark:fill-white hover:fill-blue-900"/></a></li>
 		</ul>
@@ -64,10 +65,10 @@
 	<div>
 		<div class="mx-6 my-6 h-full flex flex-row justify-between">
 			<ul class="h-full my-auto flex flex-col gap-[6vw] font-base text-lg">
-				<Navelement path="/blog" text="Blog"/>
-				<Navelement path="/games" text="Games"/>
-				<Navelement path="/shop" text="Shop"/>
-				<Navelement path="/donate" text="Donate" classnames="text-lg text-orange-600 dark:text-orange-400 font-bold "/>
+				<Navelement path="{base}/blog" text="Blog"/>
+				<Navelement path="{base}/games" text="Games"/>
+				<Navelement path="{base}/shop" text="Shop"/>
+				<Navelement path="{base}/donate" text="Donate" classnames="text-lg text-orange-600 dark:text-orange-400 font-bold "/>
 			</ul>
 		</div>
 	</div>
@@ -80,10 +81,10 @@
 			<div class="flex flex-col gap-12 ">
 				<h1 class="text-2xl text-gray-500 underline underline-offset-[10px]">Navigation</h1>
 				<ul class="w-20 flex flex-col gap-6 font-base text-lg">
-					<Navelement path="/blog" text="Blog"/>
-					<Navelement path="/games" text="Games"/>
-					<Navelement path="/shop" text="Shop"/>
-					<Navelement path="/donate" text="Donate" classnames="text-lg text-orange-600 dark:text-orange-400 font-bold "/>
+					<Navelement path="{base}/blog" text="Blog"/>
+					<Navelement path="{base}/games" text="Games"/>
+					<Navelement path="{base}/shop" text="Shop"/>
+					<Navelement path="{base}/donate" text="Donate" classnames="text-lg text-orange-600 dark:text-orange-400 font-bold "/>
 				</ul>
 			</div>
 			<div class="flex flex-col gap-12 ">
@@ -98,8 +99,8 @@
 			<div class="flex flex-col gap-12">
 				<h1 class="text-2xl text-gray-500 underline underline-offset-[10px]">Policies</h1>
 				<ul class="w-36 flex flex-col gap-6 font-base text-lg">
-					<Navelement path="/privacy-policy" text="Privacy Policy"/>
-					<Navelement path="/terms-services" text="Terms of Services"/>
+					<Navelement path="{base}/privacy-policy" text="Privacy Policy"/>
+					<Navelement path="{base}/terms-services" text="Terms of Services"/>
 				</ul>
 			</div>
 

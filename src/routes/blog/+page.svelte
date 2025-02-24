@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { base } from '$app/paths';
+
     let { data } = $props();
 </script>
 
@@ -13,10 +15,10 @@
                     src={`blogassets/${image}`}
                     alt="">
                 <div class="w-full h-full flex flex-col p-2 sm:p-4 sm:gap-4">
-                    <a href="/blog/search/{tag}">
+                    <a href="{base}/blog/search/{tag}">
                         <span class="bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 hover:text-transparent hover:bg-clip-text">#{tag}</span>
                     </a>
-                    <a href="/blog/{slug}" class="h-24 sm:h-full my-1 text-2xl font-bold hover:underline">
+                    <a href="{base}/blog/{slug}" class="h-24 sm:h-full my-1 text-2xl font-bold hover:underline">
                         <p class="line-clamp-4">{title}</p>
                     </a>
                     <p class="">{date}</p>
