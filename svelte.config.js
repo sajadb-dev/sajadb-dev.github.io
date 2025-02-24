@@ -21,7 +21,7 @@ const config = {
 			base
 		},
 		prerender: {
-			default: true
+			entries: ['*'] // Prerender all pages
 		  }
 	}
 };

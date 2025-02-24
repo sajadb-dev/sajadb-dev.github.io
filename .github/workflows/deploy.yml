@@ -25,7 +25,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+      - name: Generate SvelteKit tsconfig
+        run: npx svelte-kit sync
       - name: Build project
         env:
           BASE_PATH: ${{ github.event.repository.name }} # Adjust if needed
