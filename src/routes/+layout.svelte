@@ -19,8 +19,6 @@
     	if (menuicon) menuicon.classList.toggle('hidden');
     	if (closeicon) closeicon.classList.toggle('hidden');
     	if (navbar) navbar.classList.toggle('h-14');
-
-		
 	}
 	$effect(() => {
     if (pageUrl()) {
