@@ -21,7 +21,7 @@
 	}
 	})
 </script>
-<div class="w-full sm:h-[84svh] h-[78svh] relative md:pt-64 mb-20 flex flex-row overflow-hidden box-border" id="#section-1">
+<div class="w-full sm:h-[84svh] h-[80svh] relative md:pt-64 mb-20 flex flex-row overflow-hidden box-border" id="#section-1">
     <div id="lg-hero" class="mx-auto hidden md:inline">
         <p class="font-hurricane font-bold mx-auto text-8xl">I'm</p>
         <p class="mx-auto font-nunito font-bold text-9xl pl-16 bg-gradient-to-r from-pink-500 to-orange-500 text-transparent bg-clip-text">Sajad B.</p>
