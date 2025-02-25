@@ -4,8 +4,8 @@
 
 <div class="w-full min-h-[95lvh] py-32 sm:py-48 flex justify-center">
     <div class="max-w-[95dvw] sm:max-w-[75dvw] lg:max-w-[55dvw] h-full mx-4 flex flex-col items-center gap-16 sm:gap-28">
-    <h1 class="text-4xl sm:text-7xl font-extrabold">Recent Blog Posts</h1>
-    <ul class="w-full flex flex-col gap-8"> 
+    <h1 class="text-4xl sm:text-7xl font-extrabold">Search by tag : <span class="text-3xl sm:text-6xl font-semibold">#{data.postlist[0].tag}</span></h1>
+    <ul class="w-full flex flex-col gap-8">
         {#each data.postlist as { slug, title, date, tag, image }}
             <li class="w-full container sm:h-64 flex box-border">
                 <div class="w-full h-full flex flex-col sm:flex-row sm:gap-4 overflow-hidden rounded-lg border border-slate-300 font-paper drop-shadow-lg backdrop-blur-lg dark:backdrop-blur-sm">
