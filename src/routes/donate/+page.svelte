@@ -23,7 +23,7 @@
     }
 
 </script>
-<div class="w-full min-h-[95dvh] py-48 flex justify-center">
+<div class="w-full min-h-[95lvh] py-48 flex justify-center">
     <Toaster richColors theme="dark"  />
     <div class="min-w-[95dvw] sm:min-w-[90dvw] lg:min-w-[75dvw] h-full mx-4 flex flex-col items-center gap-16 sm:gap-20">
         <h1 class="text-4xl sm:text-7xl font-extrabold">Donate</h1>

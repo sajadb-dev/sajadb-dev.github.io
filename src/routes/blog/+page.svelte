@@ -4,7 +4,7 @@
     let { data } = $props();
 </script>
 
-<div class="w-full min-h-[95dvh] py-32 sm:py-48 flex justify-center">
+<div class="w-full min-h-[95lvh] py-32 sm:py-48 flex justify-center">
     <div class="max-w-[95dvw] sm:max-w-[75dvw] lg:max-w-[55dvw] h-full mx-4 flex flex-col items-center gap-16 sm:gap-28">
     <h1 class="text-4xl sm:text-7xl font-extrabold">Recent Blog Posts</h1>
     <ul class="w-full flex flex-col gap-8"> 

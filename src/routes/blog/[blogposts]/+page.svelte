@@ -20,7 +20,7 @@
 
 
 </script>
-<div class="w-full min-h-[95dvh] py-48 flex flex-col justify-center items-center gap-4">
+<div class="w-full min-h-[95lvh] py-48 flex flex-col justify-center items-center gap-4">
 	<div class="min-w-[90dvw] sm:min-w-[70dvw] lg:min-w-[50dvw] h-10 flex justify-start items-start">
 		<button onclick={() => window.history.back()} class="h-full aspect-square">
 			<ArrowLeftAlt classnames="w-full h-full"/>
