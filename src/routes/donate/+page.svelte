@@ -29,7 +29,7 @@
         <h1 class="text-4xl sm:text-7xl font-extrabold">Donate</h1>
         <div class="w-full">
             <ul class="h-full flex flex-col md:flex-row items-center justify-center gap-[5dvw]">
-                <li class="w-1/4 min-w-80 h-full flex flex-col gap-4 p-8 rounded-lg border border-slate-300 drop-shadow-lg font-paper backdrop-blur-lg dark:backdrop-blur-sm">
+                <li class="w-1/4 min-w-80 h-full flex flex-col gap-4 p-8 rounded-lg border border-slate-300 drop-shadow-lg font-paper bg-slate-200 dark:bg-gray-950">
                     <div class="flex flex-col items-center text-center justify-center">
                         <Gamepad classnames="w-full h-28"/>
                         <h1 class="text-5xl font-bold font-nunito mx-auto">Games</h1>

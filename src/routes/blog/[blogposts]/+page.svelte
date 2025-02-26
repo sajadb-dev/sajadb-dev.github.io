@@ -26,7 +26,7 @@
 			<ArrowLeftAlt classnames="w-full h-full"/>
 		</button>
 	</div>
-	<div class="max-w-[90dvw] sm:max-w-[70dvw] lg:max-w-[50dvw] h-full flex flex-col overflow-hidden rounded-lg border border-slate-300 drop-shadow-2xl font-paper backdrop-blur-lg dark:backdrop-blur-sm">
+	<div class="max-w-[90dvw] sm:max-w-[70dvw] lg:max-w-[50dvw] h-full flex flex-col overflow-hidden rounded-lg border border-slate-300 drop-shadow-2xl font-paper bg-slate-200 dark:bg-gray-950">
 		<img src={`/blogassets/${data.post.image}`} alt="" class="w-full h-60 object-cover"/>
 		<div class="mx-4 my-6 flex flex-col gap-6">
 			<div class="flex flex-col gap-4">

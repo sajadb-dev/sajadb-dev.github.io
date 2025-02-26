@@ -10,7 +10,7 @@
     <ul class="w-full flex flex-col gap-8"> 
         {#each data.summaries as { slug, title, date, tag, image }}
             <li class="w-full container sm:h-64 flex box-border">
-                <div class="w-full h-full flex flex-col sm:flex-row sm:gap-4 overflow-hidden rounded-lg border border-slate-300 font-paper drop-shadow-lg backdrop-blur-lg dark:backdrop-blur-sm">
+                <div class="w-full h-full flex flex-col sm:flex-row sm:gap-4 overflow-hidden rounded-lg border border-slate-300 font-paper drop-shadow-lg bg-slate-200 dark:bg-gray-950">
                 <img class="w-full sm:w-auto h-32 sm:h-full sm:aspect-square object-cover" 
                     src={`blogassets/${image}`}
                     alt="">

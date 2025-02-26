@@ -75,7 +75,7 @@
 </nav>
 
 {@render children()}
-<div id="footer" class="w-full flex flex-col py-6 px-[10dvw] gap-8 border-t border-slate-300 drop-shadow-lg font-paper backdrop-blur-lg dark:backdrop-blur-sm">
+<div id="footer" class="w-full flex flex-col py-6 px-[10dvw] gap-8 border-t border-slate-300 drop-shadow-lg font-paper bg-slate-200 dark:bg-gray-950">
 	<div class="flex flex-col lg:flex-row m-8 md:m-12 gap-12">
 		<div class="w-full grid grid-cols-2 sm:flex sm:flex-row  gap-14 justify-between">
 			<div class="flex flex-col gap-12 ">

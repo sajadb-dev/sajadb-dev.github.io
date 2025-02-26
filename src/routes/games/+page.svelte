@@ -10,7 +10,7 @@
     <ul class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {#each data.summaries as { title, tag, image, link, store }}
             <li class="w-full container flex box-border">
-                <div class="w-full h-full flex flex-col overflow-hidden rounded-lg border border-slate-300 font-paper backdrop-blur-lg dark:backdrop-blur-sm">
+                <div class="w-full h-full flex flex-col overflow-hidden rounded-lg border border-slate-300 font-paper bg-slate-200 dark:bg-gray-950">
                 <img class="w-full h-32 object-cover" 
                     src={`/gamesassets/${image}`}
                     alt="">

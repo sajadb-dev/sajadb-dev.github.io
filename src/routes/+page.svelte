@@ -5,7 +5,7 @@
     import DevLogo from "$lib/assets/DevLogo.svelte";
     import Gamepad from "$lib/assets/Gamepad.svelte";
     import Storefront from "$lib/assets/Storefront.svelte";
-  import { base } from "$app/paths";
+    import { base } from "$app/paths";
 
     let y = $state(0);
 	let mouse = $state();
@@ -100,19 +100,19 @@
 <div class="w-full flex py-12 sm:my-12 overflow-hidden">
     <div  class="w-9/12 m-auto">
         <ul class="h-full flex flex-col lg:flex-row items-center justify-center gap-[5dvw] lg:gap-[2dvw]">
-            <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300 drop-shadow-lg font-paper backdrop-blur-lg dark:backdrop-blur-sm">
+            <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300 drop-shadow-lg font-paper bg-slate-200 dark:bg-gray-950">
                 <DevLogo classnames="w-full h-28"/>
                 <h1 class="text-5xl font-bold font-nunito mx-auto">Blog</h1>
                 <p class="mx-auto mt-8 mb-12">Check out the latest blog posts</p>
                 <a href="{base}/blog" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-slate-500 hover:to-sky-500 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Blogs</a>
             </li>
-            <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300 drop-shadow-lg font-paper backdrop-blur-lg dark:backdrop-blur-sm">
+            <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300 drop-shadow-lg font-paper bg-slate-200 dark:bg-gray-950">
                 <Gamepad classnames="w-full h-28"/>
                 <h1 class="text-5xl font-bold font-nunito mx-auto">Games</h1>
                 <p class="mx-auto mt-8 mb-12">Check Out All My Games</p>
                 <a href="{base}/games" class="bg-black dark:bg-slate-100 text-white dark:text-black bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 flex justify-center">Check Out The Games</a>
             </li>
-            <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300  drop-shadow-lg font-paper backdrop-blur-lg dark:backdrop-blur-sm">
+            <li class="w-1/4 min-w-80 h-full flex flex-col p-8 rounded-lg border border-slate-300  drop-shadow-lg font-paper bg-slate-200 dark:bg-gray-950">
                 <Storefront classnames="w-full h-28"/>
                 <h1 class="text-5xl font-bold font-nunito mx-auto">Shop</h1>
                 <p class="mx-auto mt-8 mb-12">Check out the Shop</p>
