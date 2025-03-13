@@ -52,7 +52,7 @@
     <div class="w-full bg-teal-400">
         <div>
             <div id="section-2" class=" py-[7.5dvw] px-[10dvw] mx-auto items-center flex flex-col">
-                <div class=" text-center font-nunito font-extrabold text-6xl text-slate-200 drop-shadow-lg">Join Me On My Journey!</div>
+                <div class=" text-center font-nunito font-extrabold text-6xl text-white drop-shadow-lg">Join Me On My Journey!</div>
                 <div class="mt-[4dvw] container flex box-content justify-center">
                     <div class="text-center text-slate-800 text-lg flex flex-col gap-16">
                         <p class="text-left sm:text-center">Hi, My name is Sajad, a passionate 3D artist and indie game developer dedicated to bringing immersive worlds to life.<br/>
