@@ -1,10 +1,10 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    let username = 'sajadb-dev'; // Change to the desired GitHub username
-    let repos: any[] = $state([]);
+
+    let username = 'sajadb-dev';
+    let repos: any[] = [];
     let loading = true;
     let error = null;
-    const image = "Front-end.jpg";
 
   onMount(async () => {
     try {
@@ -17,7 +17,7 @@
       loading = false;
     }
   });
-  $inspect(repos);
+ 
 </script>
 
 <div class="w-full min-h-[95lvh] py-32 sm:py-48 flex justify-center">
@@ -28,7 +28,7 @@
             <li class="w-full container flex box-border">
                 <div class="w-full h-full flex flex-col overflow-hidden rounded-lg border border-slate-300 font-paper bg-slate-200 dark:bg-gray-950">
                 <img class="w-full h-32 object-cover" 
-                    src={`/gamesassets/${image}`}
+                    src="\blogassets\Front-end-fallback.jpg"
                     alt="">
                 <div class="w-full h-full flex flex-col p-2 sm:p-4 sm:gap-4">
                     <a href="/">
