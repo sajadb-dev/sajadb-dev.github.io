@@ -32,11 +32,12 @@
 
 <nav class="h-14 w-9/12 fixed container px-2 lg:px-4 mt-6 center rounded-lg border border-slate-300 drop-shadow-md backdrop-blur-2xl z-30 hidden md:inline">
 	<div class="mx-12 h-full flex flex-row justify-between">
-		<ul class="h-full my-auto flex flex-row gap-[5vw] lg:gap-[6vw] font-base text-lg">
+		<ul class="h-full my-auto flex flex-row gap-[3vw] lg:gap-[5vw] font-base text-lg">
 			<li class="w-6 h-full"><a href="{base}/" aria-label="Go Back To Home Page" class="w-full h-full flex"><SbLogo classnames="my-auto fill-black dark:fill-white"/></a></li>
 			<Navelement path="{base}/blog" text="Blog" arialabel="Go To Blog Page"/>
 			<Navelement path="{base}/games" text="Games" arialabel="Go To Games Page"/>
 			<Navelement path="{base}/shop" text="Shop" arialabel="Go To Shop Page"/>
+			<Navelement path="{base}/projects" text="Projects" arialabel="Go To Shop Page"/>
 		</ul>
 		<ul class="my-auto flex flex-row justify-center text-center items-center gap-[3vw] font-base text-md">
 			<li class=" bg-rose-500 px-2 rounded-md hover:bg-opacity-85 text-white"><a href="{base}/donate">Donate</a></li>
@@ -68,6 +69,7 @@
 				<Navelement path="{base}/blog" text="Blog" arialabel="Go To Blog Page"/>
 				<Navelement path="{base}/games" text="Games" arialabel="Go To Games Page"/>
 				<Navelement path="{base}/shop" text="Shop" arialabel="Go To Shop Page"/>
+				<Navelement path="{base}/projects" text="Projects" arialabel="Go To Shop Page"/>
 				<Navelement path="{base}/donate" text="Donate" arialabel="Go To Donate Page" classnames="text-lg text-orange-600 dark:text-orange-400 font-bold "/>
 			</ul>
 		</div>
@@ -84,6 +86,7 @@
 					<Navelement path="{base}/blog" text="Blog" arialabel="Go To Blog Page" classnames="border-b py-2"/>
 					<Navelement path="{base}/games" text="Games" arialabel="Go To Games Page" classnames="border-b py-2"/>
 					<Navelement path="{base}/shop" text="Shop" arialabel="Go To Shop Page" classnames="border-b py-2"/>
+					<Navelement path="{base}/projects" text="Projects" arialabel="Go To Shop Page" classnames="border-b py-2"/>
 					<Navelement path="{base}/donate" text="Donate" arialabel="Go To Donate Page" classnames="text-lg border-b py-2 text-orange-600 dark:text-orange-400 font-bold "/>
 				</ul>
 			</div>
