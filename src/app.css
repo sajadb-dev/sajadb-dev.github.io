@@ -64,6 +64,19 @@ body {
     transform: translateX(-50%);
 }
 
+.cls-1 {
+    fill: url(#linear-gradient-2);
+}
+
+.cls-2 {
+    fill: url(#linear-gradient-3);
+}
+
+.cls-3 {
+    fill: url(#linear-gradient);
+}
+
+
 #blogcontnt img[src*='#center'] {
     display: block;
     float: none;

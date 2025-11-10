@@ -11,7 +11,7 @@
         {#each data.summaries as { title, tag, image, link, store }}
             <li class="w-full container flex box-border">
                 <div class="w-full h-full flex flex-col overflow-hidden rounded-lg border border-slate-300 font-paper bg-slate-200 dark:bg-gray-950">
-                <img class="w-full h-32 object-cover" 
+                <img class="w-full h-64 object-cover" 
                     src={`/gamesassets/${image}`}
                     alt="">
                 <div class="w-full h-full flex flex-col p-2 sm:p-4 sm:gap-4">
@@ -23,11 +23,11 @@
                     </div>
                     {#if store === 'itch.io'}
                     <div class="flex justify-end m-4">
-                        <a href={link} target="_blank" aria-label="Visit Itch.io Page" class="h-10 px-6 flex items-center bg-itch text-white font-bold rounded-md border border-slate-300 drop-shadow-lg gap-2 hover:bg-opacity-85"><Itchdotio classnames="h-full"/> Buy on itch.io</a>
+                        <a href={link} target="_blank" aria-label="Visit Itch.io Page" class="h-10 px-6 flex items-center bg-itch text-white font-bold rounded-md border border-slate-300 drop-shadow-lg gap-2 hover:bg-opacity-85"><Itchdotio classnames="h-full"/> Check on itch.io</a>
                     </div>
                     {:else if store === 'steam'}
                     <div class="flex justify-end m-4">
-                        <a href={link} target="_blank" aria-label="Visit Steam Page" class="h-10 px-6 flex items-center bg-steam text-white font-bold rounded-md border border-slate-300 drop-shadow-lg gap-2 hover:bg-opacity-85"><SteamLogo/> Buy on Steam</a>
+                        <a href={link} target="_blank" aria-label="Visit Steam Page" class="h-10 px-6 flex items-center bg-steam text-white font-bold rounded-md border border-slate-300 drop-shadow-lg gap-2 hover:bg-opacity-85"><SteamLogo/> Check on Steam</a>
                     </div>
                     {/if}
                 </div>

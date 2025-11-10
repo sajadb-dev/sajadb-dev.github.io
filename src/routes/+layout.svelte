@@ -3,7 +3,7 @@
 	import Navelement from './navelement.svelte';
 	import XLogo from "$lib/assets/xlogo.svelte";
 	import Instagram from '$lib/assets/instagram.svelte';
-	import SbLogo from '$lib/assets/SBLogo.svelte';
+	import SBDEVLOGO from '$lib/assets/SBDEVLOGO.svelte';
 	import MenuList from '$lib/assets/MenuList.svelte';
 	import CloseIcon from '$lib/assets/CloseIcon.svelte';
 	import { page } from '$app/state';
@@ -33,7 +33,7 @@
 <nav class="h-14 w-9/12 fixed container px-2 lg:px-4 mt-6 center rounded-lg border border-slate-300 drop-shadow-md backdrop-blur-2xl z-30 hidden md:inline">
 	<div class="mx-12 h-full flex flex-row justify-between">
 		<ul class="h-full my-auto flex flex-row gap-[3vw] lg:gap-[5vw] font-base text-lg">
-			<li class="w-6 h-full"><a href="{base}/" aria-label="Go Back To Home Page" class="w-full h-full flex"><SbLogo classnames="my-auto fill-black dark:fill-white"/></a></li>
+			<li class="w-12 h-full"><a href="{base}/" aria-label="Go Back To Home Page" class="w-full h-full flex"><SBDEVLOGO classnames="my-auto"/></a></li>
 			<Navelement path="{base}/blog" text="Blog" arialabel="Go To Blog Page"/>
 			<Navelement path="{base}/games" text="Games" arialabel="Go To Games Page"/>
 			<Navelement path="{base}/shop" text="Shop" arialabel="Go To Shop Page"/>
@@ -48,7 +48,7 @@
 </nav>
 <nav bind:this={navbar} id="mobile-nav" class="top-4 left-4 w-[90dvw] h-14 overflow-hidden fixed center rounded-lg border border-slate-400 drop-shadow-2xl font-paper backdrop-blur-2xl z-30 md:hidden">
     <div class=" w-full h-14 mx-2 px-4 flex flex-row justify-between items-center relative">
-		<div class="w-6 h-14"><a href="/" class="w-full h-full flex"><SbLogo classnames="my-auto fill-black dark:fill-white"/></a></div>
+		<div class="w-12 h-full flex flex-row font-base"><a href="/" class="w-full h-full flex"><SBDEVLOGO classnames="my-auto"/></a></div>
 		<ul class="flex justify-center items-center gap-6">
 			<li class="w-4 h-4"><a class="" href="https://www.instagram.com/sajadb.dev/"><Instagram classnames="fill-black dark:fill-white hover:fill-red-500"/></a></li>
 			<li class="w-4 h-4 "><a class="" href="https://x.com/sajadb_dev"><XLogo classnames="fill-black dark:fill-white hover:fill-blue-900"/></a></li>
