@@ -97,6 +97,7 @@
 					<Navelement path="https://x.com/sajadb_dev" text="Twitter/X" arialabel="Visit X Page" target="_blank" classnames="border-b py-2"/>
 					<Navelement path="https://www.linkedin.com/in/sajad-baghdadi" arialabel="Visit LinkedIn Page" text="LinkedIn" target="_blank" classnames="border-b py-2"/>
 					<Navelement path="https://github.com/sajadb-dev" text="Github" arialabel="Visit Github Page" target="_blank" classnames="border-b py-2"/>
+					<Navelement path="https://digitalravagerstudio.itch.io/" text="Itch.io" arialabel="Visit Itch.io Page" target="_blank" classnames="border-b py-2"/>
 				</ul>
 			</div>
 			<div class="w-full sm:w-36 flex flex-col gap-12">
