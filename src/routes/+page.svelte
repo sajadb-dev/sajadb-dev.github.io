@@ -74,7 +74,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/sajadb.dev/" 
+                        <a href="https://www.instagram.com/sajadb_dev/" 
                             target="_blank" 
                             class="w-48 flex justify-center text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-br hover:from-pink-400 hover:to-orange-400 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm py-2.5 text-center items-center dark:focus:ring-[#1da1f2]/55 gap-2">
                             <Instagram classnames="w-4 h-4 fill-white"/>
