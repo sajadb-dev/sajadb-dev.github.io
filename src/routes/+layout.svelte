@@ -41,7 +41,7 @@
 		</ul>
 		<ul class="my-auto flex flex-row justify-center text-center items-center gap-[3vw] font-base text-md">
 			<li class=" bg-rose-500 px-2 rounded-md hover:bg-opacity-85 text-white"><a href="{base}/donate">Donate</a></li>
-			<li class="w-4 h-4"><a class="" href="https://www.instagram.com/sajadb.dev/" aria-label="Visit Instagram Page"><Instagram classnames="fill-black dark:fill-white hover:fill-red-500"/></a></li>
+			<li class="w-4 h-4"><a class="" href="https://www.instagram.com/sajadb_dev/" aria-label="Visit Instagram Page"><Instagram classnames="fill-black dark:fill-white hover:fill-red-500"/></a></li>
 			<li class="w-4 h-4"><a class="" href="https://x.com/sajadb_dev" aria-label="Visit X Page"><XLogo classnames="fill-black dark:fill-white hover:fill-blue-900"/></a></li>
 		</ul>
 	</div>
@@ -50,7 +50,7 @@
     <div class=" w-full h-14 mx-2 px-4 flex flex-row justify-between items-center relative">
 		<div class="w-12 h-full flex flex-row font-base"><a href="/" class="w-full h-full flex"><SBDEVLOGO classnames="my-auto"/></a></div>
 		<ul class="flex justify-center items-center gap-6">
-			<li class="w-4 h-4"><a class="" href="https://www.instagram.com/sajadb.dev/"><Instagram classnames="fill-black dark:fill-white hover:fill-red-500"/></a></li>
+			<li class="w-4 h-4"><a class="" href="https://www.instagram.com/sajadb_dev/"><Instagram classnames="fill-black dark:fill-white hover:fill-red-500"/></a></li>
 			<li class="w-4 h-4 "><a class="" href="https://x.com/sajadb_dev"><XLogo classnames="fill-black dark:fill-white hover:fill-blue-900"/></a></li>
 			<li class="h-8 ml-3">
 				<button type="button" aria-label="hamburgermenu" class="w-8 h-full" {onclick}>
@@ -93,7 +93,7 @@
 			<div class="w-full sm:w-36 flex flex-col gap-12 ">
 				<h1 class="text-2xl text-gray-500 underline underline-offset-[10px]">Connect</h1>
 				<ul class="w-full flex flex-col gap-6 font-base text-lg">
-					<Navelement path="https://www.instagram.com/sajadb.dev/" arialabel="Visit Instagram Page" text="Instagram" target="_blank" classnames="border-b py-2"/>
+					<Navelement path="https://www.instagram.com/sajadb_dev/" arialabel="Visit Instagram Page" text="Instagram" target="_blank" classnames="border-b py-2"/>
 					<Navelement path="https://x.com/sajadb_dev" text="Twitter/X" arialabel="Visit X Page" target="_blank" classnames="border-b py-2"/>
 					<Navelement path="https://www.linkedin.com/in/sajad-baghdadi" arialabel="Visit LinkedIn Page" text="LinkedIn" target="_blank" classnames="border-b py-2"/>
 					<Navelement path="https://github.com/sajadb-dev" text="Github" arialabel="Visit Github Page" target="_blank" classnames="border-b py-2"/>
@@ -130,7 +130,7 @@
 		</div>
 	</div>
 	<div class="w-full flex gap-6 border-t pt-8 sm:p-8">
-		<p>Website Created by SajadB.dev</p>
+		<p>Website Created by SajadB_dev</p>
 		<p>|</p>
 		<p>© Copyright. All Rights Reserved.</p>
 	</div>
